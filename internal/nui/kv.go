@@ -2,11 +2,10 @@ package nui
 
 import (
 	"errors"
-	"strings"
-	"time"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/nats-io/nats.go/jetstream"
+	"strings"
+	"time"
 )
 
 func kvKeyFromCtx(c *fiber.Ctx) string {
